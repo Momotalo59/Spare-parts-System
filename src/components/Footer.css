@@ -1,0 +1,13 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #1e1e1e; /* Consistent dark background */
+  color: #8e8e93; /* Consistent tertiary text color */
+  text-align: center;
+  padding: 20px 30px;
+  font-size: 0.9em;
+  border-top: 1px solid #3a3a3c; /* Subtle top border */
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+}

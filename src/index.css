@@ -1,0 +1,70 @@
+/* src/index.css */
+
+:root {
+  font-family: 'Kanit', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Scrollbar for modern browsers */
+/* For Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #4A4A4A #1e1e1e; /* thumb color, track color */
+}
+
+body {
+  min-width: 320px;
+  overflow-y: auto; /* Allow scrolling by default */
+}
+
+/* For Webkit browsers (Chrome, Safari, Edge, etc.) */
+body::-webkit-scrollbar {
+  width: 8px; /* Set a specific width */
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Make track match the app background */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4a4a4a; /* A subtle dark grey for the thumb */
+  border-radius: 4px; /* Rounded corners */
+  border: 2px solid #1e1e1e; /* Padding effect */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #6a6a6a; /* Slightly lighter on hover */
+}
+
+body.no-scroll {
+  overflow: hidden; /* Prevent scrolling when this class is applied */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

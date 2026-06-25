@@ -1,0 +1,17 @@
+{
+  "name": "pusher",
+  "version": "1.0.0",
+  "description": "Telegram pusher service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

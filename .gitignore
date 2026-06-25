@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# Production build output
+/dist
+
+# Vite cache
+/.vite
+
+# Firebase local cache
+/.firebase
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Editor directories and files
+.vscode/
+.DS_Store
+
+# Local development files
+.idx/
+
+# Backup archives
+project-backup.*
+
+# Firebase functions local runtime config
+/functions/.runtimeconfig.json
